@@ -1,0 +1,25 @@
+* {
+	font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+	padding: 0;
+	margin: 0;
+	background-color: black;
+}
+body {
+	display: flex;
+	min-height: 100vh;
+	justify-content: center;
+	align-items: center;
+}
+#sandbox {
+	border: 1px white solid;
+}
+#options {
+	display: flex;
+	background-color: aliceblue;
+	position: absolute;
+	bottom: 0;
+}
+button {
+	background-color: aliceblue;
+	padding: 0.2rem;
+}
